@@ -1,0 +1,23 @@
+{
+  "name": "hider",
+  "version": "0.0.1",
+  "description": "A simple encrypt-decrypt tool.",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fede03billy/hider.git"
+  },
+  "keywords": [
+    "hider",
+    "encrypt",
+    "simple encryption",
+    "hide"
+  ],
+  "author": "Federico Caruso",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/fede03billy/hider/issues"
+  },
+  "homepage": "https://github.com/fede03billy/hider#readme"
+}

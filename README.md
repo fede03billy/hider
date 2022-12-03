@@ -5,12 +5,8 @@ A simple encrypt-decrypt tool.
 npm install hider
 
 ## Import the default exports from the module
-const { hide, unhide } = require('hider');
-
-or
-
-import { hide, unhide } from 'hider';
+import hider from 'hider';
 
 ## Use the imported values
-hide('foo', 'bar'); // => '040714'
-unhide('foo', '040714'); // => 'bar'
+hider.hide('foo', 'bar'); // => '040714'
+hider.unhide('foo', '040714'); // => 'bar'
